@@ -1,5 +1,5 @@
 body{
-    font-family:'Poppins', sans-serif;
+    background-color:#192227;
 }
 .logo{
     width: 50px;
@@ -19,13 +19,6 @@ body{
     text-align: left;
     color: #d6d84f;
 }
-.tax-header{
-    text-decoration: none;
-    color: #5A80C7;
-}
-h3{
-    color: #7BD61A;
-}  
    
 
 
@@ -37,131 +30,119 @@ div.nav-header > h3{
     text-decoration: none;
 
 }
+
+
+.button-top{
+    width: 294.992px;
+    height: 50.377px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFA100;
+    background: color(display-p3 0.9765 0.651 0);
+    color: #172228;
+    color: color(display-p3 0.098 0.1333 0.1529);
+    font-family: "Clash Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button-top .a{
+}
+
 .homepage{
-    padding-top: 50px;
-    margin: 0px 50px;
-    display: flex;
-    justify-content: space-between;
 
-}
-
-.homepage h4{
-    margin-top: 0;
-    padding-top: 10px;
-    color: #4F557A;
-    letter-spacing: 0.5px;
-}
-.homepage h1{
-    margin-bottom: 0;
-    letter-spacing: 5px;
-    color: #7BD61A ;
-}
-.section-form{
+   height: 832px;
+    padding-top: 3%;
     display: flex;
-    gap: 20px;
-    align-items: flex-end;
-}
-.wrapper-income{
     display: flex;
     flex-direction: column;
-}
-.section-form .input-wth-icon {
-    position: relative;
-}
-.section-form .input-with-icon  img{
-    position: absolute;
-    padding: 12px;
-}
-.section-form .input-with-icon input {
-   border: 1px solid #f6f6f9;
-   border-radius: 20px;
-   padding: 15px 0px;
-   background: #f6f6f9;
-   padding-left: 50px;
+    align-items: center;
+    gap: 35px;
 }
 
-#period{
-  border: 1px solid #f6f6f9;
-    border-radius: 20px;
-    padding: 15px 0px;
-    background: #f6f6f9;
-    padding-left: 50px;
-}
-#location{
-    border: 1px solid #f6f6f9;
-    border-radius: 20px;
-    padding: 15px 0px;
-    background: #f6f6f9;
-    padding-left: 50px;
-}
-input:focus{
-    border: 1px solid #b60000;
-}
-.calculate-btn {
-    width: 145px;
-    background-color:black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    border-radius: 50px;
-    font-size: 14px;
-    height: 48px;
-    padding: 0px 18px;
-    text-align: center;
-}
-.absolute-img{
- width: 250px;
- height: 250px;
-}
-.wrapper-section-two{
-    background-color: rgb(246, 246, 249);
-    padding: 20px 50px;
-}
-.salary-card{
-    background-color: white;
+
+.box-one{
+    width: 1215px;
+    height: 557.523px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    background: color(display-p3 1 1 1);
     display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
-    border-radius: 5px;
-    width: 640px;
-}
-.time{
-    width: 70%;
-    display: flex;  
-    justify-content: space-around;
-}
-.time-name{
-    cursor: pointer;
-}
-.ask{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
-    border-radius: 5px;
-    width: 640px;
-    margin-top: 24px;
-    flex-direction: column; 
-}
-.ask .title{
-    font-weight: bold;
-}
-.ask hr{
-    height: 1px;
-    background: #00000024;
-    color: #0000000d;
-    width: 100%;
-    border: none;
-}
-.ask .question{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap:100px;
 }
-.ask .question img{
-    height: 14px;
+.box-one-text h1{
+    width: 480px;
+    color: #000;
+    color: color(display-p3 0 0 0);
+    font-family: "Clash Display";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
 }
-.ask .desc{
-    font-size: 13px;
+.box-one-text p{
+    width: 633.452px;
+    color: #000;
+    color: color(display-p3 0 0 0);
+    font-family: "Clash Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
+
+.box-row{
+    display: flex;
+    gap: 35px;
+
+}
+.box-two{
+    width: 701.454px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF400;
+    background: color(display-p3 1 0.96 0);
+}
+
+.box-three{
+    width: 497.191px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFA100;
+    background: color(display-p3 0.9765 0.651 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-three a{
+    color: #172228;
+    color: color(display-p3 0.098 0.1333 0.1529);
+    font-family: "Clash Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration:none;
+}
+.how-to{
+    background-color: red;
+    height: 832px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
