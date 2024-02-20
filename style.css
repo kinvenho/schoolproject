@@ -182,6 +182,27 @@ body{
         border-radius: 65px;
         border: 5px solid rgba(255, 255, 255, 0.13);
         border: 5px solid color(display-p3 1 1 1 / 0.13);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-how-one h1{
+        color: #ffffff;
+        font-family: "Clash Display";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .box-how-one p{ 
+        color: #ffffff;
+        width: 400px;
+        font-family: "Clash Display";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
     }
 
     .how-to-col{
@@ -191,6 +212,10 @@ body{
     }
 
     .box-how-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 513.538px;
         height: 246.073px;
         flex-shrink: 0;
@@ -199,7 +224,30 @@ body{
         border: 5px solid color(display-p3 1 1 1 / 0.13);
             }
 
+            .box-how-two h1{
+                color: #ffffff;
+                font-family: "Clash Display";
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .box-how-two p{ 
+                color: #ffffff;
+                width: 500px;
+                font-family: "Clash Display";
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 200;
+                line-height: normal;
+            }
+
+
     .box-how-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 513.538px;
         height: 246.073px;
         flex-shrink: 0;
@@ -208,7 +256,30 @@ body{
         border: 5px solid color(display-p3 1 1 1 / 0.13);
     }
 
+    
+    .box-how-three h1{
+        color: #ffffff;
+        font-family: "Clash Display";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .box-how-three p{ 
+        color: #ffffff;
+        width: 500px;
+        font-family: "Clash Display";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
     .box-how-four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 1077.075px;
         height: 167.285px;
         flex-shrink: 0;
@@ -217,7 +288,23 @@ body{
         border: 5px solid color(display-p3 1 1 1 / 0.13);
     }
 
-
+    .box-how-four h1{
+        color: #ffffff;
+        font-family: "Clash Display";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .box-how-four p{ 
+        color: #ffffff;
+        width: 800px;
+        font-family: "Clash Display";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
 
     .FAQ{
         background-color:172228;
@@ -257,55 +344,37 @@ body{
     
     .outer {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items:flex-start;
         justify-content: center;
-        gap:150px;
+        gap:-10px;
         width: 986.68px;
-        height: 105.106px;
+        height: 200px;
         border-radius: 25px;
         border: 1px solid #FFF;
         border: 1px solid color(display-p3 1 1 1);
-        opacity: 0.22;
-        background: #080808;
+        background:none;
         }
+
+
+    .outer-text{
+        transform: translateX(60px);
+    }
     
     .outer h3{
         color: #FFF;
         font-family: "Clash Display";
-        font-size: 20px;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 800;
         line-height: 120%;
     }
 
-    .inner {
-
-    }
-    
-    .inner p {
-        color: #FFF;
-        color: color(display-p3 1 1 1);
+    .outer p{
+        color: #494949;
         font-family: "Clash Display";
         font-size: 20px;
         font-style: normal;
-        font-weight: 500;
-        line-height: 120%;
+        width: 900px;
     }
     
-    .active {
-        width: 986.68px;
-        height: 211.145px;
-    }
-    
-
-
-
-    body{
-        background-color:#192227;
-    }
-
-    /* login page */
-    .login-Paqge{
-        height: 832px;
-        
-    }
