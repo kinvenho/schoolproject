@@ -1,17 +1,18 @@
+
+
+
 body{
     background-color:#192227;
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
     padding: 0 60px;
-    font-family:'Poppins', sans-serif;
     align-items: center;
-
 }
 .nav-logo{
     display: flex;
@@ -20,17 +21,6 @@ body{
     color: #d6d84f;
 }
    
-
-
-div.nav-header > h3{
-    padding-left: -100px;
-}
-.nav-header a {
-    font-family:'Poppins', sans-serif;
-    text-decoration: none;
-
-}
-
 
 .button-top{
     width: 294.992px;
@@ -53,8 +43,6 @@ div.nav-header > h3{
     gap: 30px;
 }
 
-.button-top .a{
-}
 
 .homepage{
 
@@ -138,11 +126,186 @@ div.nav-header > h3{
     line-height: normal;
     text-decoration:none;
 }
+
+
+
+
+
+
 .how-to{
-    background-color: red;
-    height: 832px;
+    background-color:172228;
+    height: 1500px;
     display: flex;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 100px;
+    }
+
+    .how-to-head{
+    display: inline-flex;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FFA100;
+    background: color(display-p3 0.9765 0.651 0);
+    }
+    .how-to-head p{
+        color: #172228;
+        color: color(display-p3 0.098 0.1333 0.1529);
+        font-family: "Clash Display";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .how-to-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+    .how-to-row{
+        display:flex;
+        gap: 35px;
+    }
+
+    .box-how-one{
+        width: 513.538px;
+        height: 513.538px;
+        flex-shrink: 0;
+        border-radius: 65px;
+        border: 5px solid rgba(255, 255, 255, 0.13);
+        border: 5px solid color(display-p3 1 1 1 / 0.13);
+    }
+
+    .how-to-col{
+        display:flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .box-how-two{
+        width: 513.538px;
+        height: 246.073px;
+        flex-shrink: 0;
+        border-radius: 65px;
+        border: 5px solid rgba(255, 255, 255, 0.13);
+        border: 5px solid color(display-p3 1 1 1 / 0.13);
+            }
+
+    .box-how-three{
+        width: 513.538px;
+        height: 246.073px;
+        flex-shrink: 0;
+        border-radius: 65px;
+        border: 5px solid rgba(255, 255, 255, 0.13);
+        border: 5px solid color(display-p3 1 1 1 / 0.13);
+    }
+
+    .box-how-four{
+        width: 1077.075px;
+        height: 167.285px;
+        flex-shrink: 0;
+        border-radius: 65px;
+        border: 5px solid rgba(255, 255, 255, 0.13);
+        border: 5px solid color(display-p3 1 1 1 / 0.13);
+    }
+
+
+
+    .FAQ{
+        background-color:172228;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .FAQ-head{
+        border-radius: 50px;
+        background: #FFA100;
+        background: color(display-p3 0.9765 0.651 0);
+        display: inline-flex;
+        padding: 20px 25px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .FAQ-head P{
+        color: #172228;
+        color: color(display-p3 0.098 0.1333 0.1529);
+        font-family: "Clash Display";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+
+    .faq-box {
+    }
+    
+    .outer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:150px;
+        width: 986.68px;
+        height: 105.106px;
+        border-radius: 25px;
+        border: 1px solid #FFF;
+        border: 1px solid color(display-p3 1 1 1);
+        opacity: 0.22;
+        background: #080808;
+        }
+    
+    .outer h3{
+        color: #FFF;
+        font-family: "Clash Display";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    .inner {
+
+    }
+    
+    .inner p {
+        color: #FFF;
+        color: color(display-p3 1 1 1);
+        font-family: "Clash Display";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+    }
+    
+    .active {
+        width: 986.68px;
+        height: 211.145px;
+    }
+    
+
+
+
+    body{
+        background-color:#192227;
+    }
+
+    /* login page */
+    .login-Paqge{
+        height: 832px;
+        
     }
